@@ -13,7 +13,7 @@ class Program
 
         // Default radio type is undefined (-1)
         // I discovered this quite by accident on my BaoFeng UV-5RH radio
-        // but if you change the value of radioType, you can unlock your radio (UV-5RH, MAY work on similar models as well. Test at your own risk.)
+        // but if you change the value of radioType, you can unlock your radio (UV-5RH, "MAY" work on similar models as well. Test at your own risk.)
         // TX on All Freq except AM: radioType = 0;
         // TX on HAM Freq only: radioType =2
         int radioType = -1;    
